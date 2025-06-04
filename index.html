@@ -149,37 +149,66 @@
                     <h2>Cases</h2><span> de sucesso</span>
                 </div>
                 <div id="meuCarrossel" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="./imgs/Banner04.png" class="d-block w-100" alt="Imagem 1">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./imgs/Banner04.png" class="d-block w-100" alt="Imagem 1">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./imgs/Banner05.png" class="d-block w-100" alt="Imagem 2">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./imgs/Banner06.png" class="d-block w-100" alt="Imagem 3">
+                        </div>
                     </div>
-                    <div class="carousel-item">
-                        <img src="./imgs/Banner05.png" class="d-block w-100" alt="Imagem 2">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="./imgs/Banner06.png" class="d-block w-100" alt="Imagem 3">
-                    </div>
-                </div>
 
-                <!-- Botões de navegação -->
-                <button class="carousel-control-prev" type="button" data-bs-target="#meuCarrossel" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Anterior</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#meuCarrossel" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Próximo</span>
-                </button>
+                    <!-- Botões de navegação -->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#meuCarrossel"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Anterior</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#meuCarrossel"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Próximo</span>
+                    </button>
 
-                <!-- Indicadores (bolinhas) -->
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#meuCarrossel" data-bs-slide-to="0" class="active"></button>
-                    <button type="button" data-bs-target="#meuCarrossel" data-bs-slide-to="1"></button>
-                    <button type="button" data-bs-target="#meuCarrossel" data-bs-slide-to="2"></button>
-                </div>
+                    <!-- Indicadores (bolinhas) -->
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#meuCarrossel" data-bs-slide-to="0"
+                            class="active"></button>
+                        <button type="button" data-bs-target="#meuCarrossel" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#meuCarrossel" data-bs-slide-to="2"></button>
+                    </div>
                 </div>
             </section>
 
+            <section id="contato">
+                <div class="titulo">
+                    <span>Entre em</span>
+                    <h2>Contato</h2>
+                </div>
+
+                <form action=""></form>
+                <div class="campo">
+                    <label for="campo-nome"> Qual é seu nome?</label>
+                    <input type="text" id="campo nome" placeholder="Digite seu nome...">
+                </div>
+
+                <div class="campo">
+                    <label for="campo email"> Em qual e-mail podemos te responder?</label>
+                    <input type="email" id="campo-email" placeholder="Digite seu e-mail...">
+                </div>
+
+                <div class="campo-descricao">
+                    <label for="campo-texto">Descreva um pouco da sua empresa, e também o problema que está procurando
+                        solucionar.</label>
+                    <textarea id="campo-texto" placeholder="Descreva sua empresa e o problema para enfrentar..."
+                        cols="30" rows="10"></textarea>
+                </div>
+                <button type="submit">Enviar</button>
+                </form>
+            </section>
 
 
 
