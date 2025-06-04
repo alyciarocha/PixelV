@@ -175,7 +175,7 @@ header .container-grid {
 
 /*----------------------SERVIÇOS-----------------------*/
 #servicos {
-    margin-bottom: 12opx;
+    margin-bottom: 120px;
 }
 
 #servicos .titulo {
@@ -333,7 +333,7 @@ header .container-grid {
 
     text-align: left;
 
-    display: flex+;
+    display: flex;
     flex-direction: column;
     justify-content: space-between;
 
@@ -413,4 +413,56 @@ header .container-grid {
 
 #contato form button:hover{
     background-color: var(--verde-pixelV);
+
+}
+/*-----------------Foother------------------------*/
+footer{
+    height: 250px;
+    background-image: url(./imgs/footer.png);
+}
+
+footer img{
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .container-grid {
+    height: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.redes-sociais{
+  height: 50%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.redes-sociais p{
+    color: var(--branco);
+
+    font-family: "Recursive", sans-linear-bold;
+    font-size: 24px;
+}
+
+.icones-redes {
+   width: 240px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.icones-redes a {
+    color: var(--branco);
+}
+
+.icones-redes a:hover {
+    color:var(--verde-pixelV)
 }
